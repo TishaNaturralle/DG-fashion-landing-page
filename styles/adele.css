@@ -8,6 +8,17 @@
 h1 {
   color: blueviolet;
 }
+.container {
+  max-width: 900px;
+  max-height: 900px;
+  margin: auto;
+  text-align: left;
+  padding: 120px 60px;
+}
+.card-img {
+  max-width: 400px;
+  max-height: 600px;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -23,6 +34,12 @@ h1 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.masterhead {
+  background-size: cover;
+  min-height: 60vh;
+  position: relative;
 }
 footer {
   margin: 60px 0;
