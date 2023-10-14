@@ -3,10 +3,11 @@
   --secondary-color: #f9f7fe;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Roboto", sans-serif;
+  --primary-color: rgb(58, 53, 53);
 }
 
 h1 {
-  color: blueviolet;
+  color: var(--primary-color);
 }
 .container {
   max-width: 900px;
