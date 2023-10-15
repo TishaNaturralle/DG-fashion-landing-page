@@ -8,6 +8,17 @@
 
 h1 {
   color: var(--primary-color);
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
 }
 .container {
   max-width: 900px;
@@ -16,10 +27,7 @@ h1 {
   text-align: left;
   padding: 120px 60px;
 }
-.card-img {
-  max-width: 100px;
-  max-height: 0 auto;
-}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -65,10 +73,10 @@ footer .email-link:hover {
   color: var(--branding-color);
 }
 footer .social-links a {
-  margin-bottom: 0 20px;
+  margin-bottom: 0 10px;
   color: var(--branding-color);
   background: var(--secondary-color);
-  padding: 10px 14px;
+  padding: 5px 10px;
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
