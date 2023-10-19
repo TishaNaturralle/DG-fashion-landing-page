@@ -1,9 +1,16 @@
 :root {
   --branding-color: #6c63ff;
+  --background-color: #d1cde9;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Roboto", sans-serif;
   --primary-color: rgb(58, 53, 53);
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--background-color);
 }
 
 h1 {
@@ -45,11 +52,25 @@ p {
   padding: 15px 30px;
 }
 
+.nav-link {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #0a0522;
+  transition: all 100ms ease-in-out;
+}
+
 .masterhead {
   background-size: cover;
   min-height: 60vh;
+  max-width: none;
   position: relative;
 }
+
 footer {
   margin: 60px 0;
 }
