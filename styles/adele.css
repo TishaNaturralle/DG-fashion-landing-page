@@ -29,7 +29,7 @@ p {
 }
 .container {
   max-width: 900px;
-  max-height: 900px;
+  max-height: 1200px;
   margin: auto;
   text-align: left;
   padding: 120px 60px;
