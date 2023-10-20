@@ -53,10 +53,9 @@ p {
 }
 
 .nav-link {
-  display: inline;
-  list-style: none;
+  display: flex;
+  justify-content: flex-end;
   line-height: 42px;
-  margin-left: 15px;
 }
 .nav-link {
   text-decoration: none;
@@ -67,8 +66,9 @@ p {
 .masterhead {
   background-size: cover;
   min-height: 60vh;
-  max-width: none;
+  max-width: 100%;
   position: relative;
+  box-shadow: 15px 10px 10px rgb(53, 50, 50);
 }
 
 footer {
