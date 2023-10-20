@@ -35,6 +35,9 @@ p {
   padding: 120px 60px;
 }
 
+.card {
+  padding: 5px;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -59,10 +62,12 @@ p {
 }
 .nav-link {
   text-decoration: none;
-  color: #0a0522;
+  color: #bfb5ee;
   transition: all 100ms ease-in-out;
 }
-
+.card-container {
+  border: 10px solid #885df1;
+}
 .masterhead {
   background-size: cover;
   min-height: 60vh;
