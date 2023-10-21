@@ -1,6 +1,6 @@
 :root {
   --branding-color: #6c63ff;
-  --background-color: #d1cde9;
+  --background-color: rgb(4, 31, 61);
   --secondary-color: #f9f7fe;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Roboto", sans-serif;
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  color: var(--primary-color);
+  color: rgb(107, 79, 8);
   text-align: center;
 }
 h5 {
@@ -36,7 +36,7 @@ p {
 }
 
 .card {
-  padding: 5px;
+  padding: 30px;
 }
 .btn-branding {
   background: var(--branding-color);
@@ -98,7 +98,17 @@ footer .email-link {
 footer .email-link:hover {
   color: var(--branding-color);
 }
-footer .social-links a {
+.social {
+  margin-bottom: 0 10px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 10px;
+  border-radius: 90%;
+  font-size: 30px;
+  transition: all 100ms ease-in-out;
+}
+
+section.social-links a {
   margin-bottom: 0 10px;
   color: var(--branding-color);
   background: var(--secondary-color);
@@ -107,7 +117,8 @@ footer .social-links a {
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
-footer .social-links a:hover {
+
+section .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
