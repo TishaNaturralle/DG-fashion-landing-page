@@ -1,6 +1,6 @@
 :root {
   --branding-color: #6c63ff;
-  --background-color: rgb(4, 31, 61);
+  --background-color: rgba(65, 57, 57, 0.849);
   --secondary-color: #f9f7fe;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Roboto", sans-serif;
@@ -14,8 +14,9 @@ body {
 }
 
 h1 {
-  color: rgb(107, 79, 8);
+  color: rgb(17, 12, 0);
   text-align: center;
+  font-weight: bold;
 }
 h5 {
   text-align: center;
@@ -23,9 +24,12 @@ h5 {
 p {
   text-align: center;
 }
-
-.card-text {
+.master-card-title {
+  font-weight: bold;
+}
+.master.card-text {
   text-align: center;
+  font-weight: bold;
 }
 .container {
   max-width: 900px;
@@ -46,15 +50,12 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
-.btn-branding.outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
 
+.border-link {
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 15%;
+}
 .nav-link {
   display: flex;
   justify-content: flex-end;
@@ -108,17 +109,11 @@ footer .email-link:hover {
   transition: all 100ms ease-in-out;
 }
 
-section.social-links a {
-  margin-bottom: 0 10px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
-  padding: 5px 10px;
-  border-radius: 50%;
-  font-size: 18px;
-  transition: all 100ms ease-in-out;
-}
-
 section .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+section {
+  margin-bottom: 3px;
+  box-sizing: border-box;
 }
