@@ -21,8 +21,27 @@ h1 {
 h5 {
   text-align: center;
 }
+h6 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+  color: #4c069cf1;
+}
+h7 {
+  text-align: center;
+  font-weight: 700;
+  color: black;
+}
 p {
   text-align: center;
+}
+.express {
+  font-weight: bolder;
+  color: black;
+}
+img.floral {
+  max-width: 100;
+  padding: 15px, 10px, 15px, 10px;
 }
 .master-card-title {
   font-weight: bold;
@@ -71,7 +90,7 @@ p {
 }
 .masterhead {
   background-size: cover;
-  min-height: 60vh;
+  min-height: 60dvi;
   max-width: 100%;
   position: relative;
   box-shadow: 15px 10px 10px rgb(53, 50, 50);
@@ -116,4 +135,30 @@ section .social-links a:hover {
 section {
   margin-bottom: 3px;
   box-sizing: border-box;
+}
+card-image {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+    line-height: 0, 5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+  .masterhead-card-img {
+    text-align: center;
+    max-width: 200px;
+    padding: none;
+  }
 }
