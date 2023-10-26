@@ -102,6 +102,10 @@ h8.links {
   color: #bfb5ee;
   transition: all 100ms ease-in-out;
 }
+
+navImage {
+  max-block-size: 10px;
+}
 .card-container {
   border: 10px solid #885df1;
 }
@@ -110,7 +114,14 @@ h8.links {
   min-height: 60dvi;
   max-width: 100%;
   position: relative;
-  box-shadow: 15px 10px 10px rgb(53, 50, 50);
+  box-shadow: 15px 10px 10px rgb(202, 235, 112);
+}
+.gimages {
+  background-size: small;
+  min-height: 60dvi;
+  max-width: 50%;
+  position: relative;
+  box-shadow: 50px 15px 50px rgb(202, 235, 112);
 }
 
 footer {
@@ -119,8 +130,8 @@ footer {
 
 footer .contact-box {
   background: var(-- --secondary-color);
-  padding: 30px 120px;
-  border-radius: 10px;
+  padding: 5px 5px;
+  border-radius: 1px;
 }
 footer .contact-box p {
   margin: 0;
